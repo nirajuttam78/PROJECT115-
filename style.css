@@ -1,0 +1,41 @@
+h1{
+    font-size: 30px !important;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.btn-danger{
+font-size: 25px !important;
+}
+
+#button:hover{
+    background-color:deeppink;
+    border-radius: 5px;
+    border-color:deeppink;
+    color: black;
+}
+
+body{
+    background-size: cover;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:0px 0px 38px rgb(128, 102, 213);}
+    to{box-shadow:0px 0px 38px blueviolet;}
+}
+
+#button{
+    background-color:palevioletred;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: palevioletred;
+    color: black;
+}
+
